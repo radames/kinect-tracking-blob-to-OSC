@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "820D8ECECF908AEE9B246B025F1F606DC1E2C31E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "219FF19B371D53B0F60B3932A86F1D8E8E316723" : 0,
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613" : 0,
+    "903165F9FDCB952EAE50578862E56DA722F43224" : 0,
+    "820D8ECECF908AEE9B246B025F1F606DC1E2C31E" : 0,
+    "95F70890EFD46183734FEDFE52CF53391DE6937E" : 0,
+    "F080FE456D2598C8CEBB59BC836218BE8B5468F4" : 0,
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB0244C1-1165-4C3A-98BF-FB83B3ADCB9A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "219FF19B371D53B0F60B3932A86F1D8E8E316723" : "Development\/openFrameworks\/addons\/ofxTwistedRibbon",
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613" : "Development\/openFrameworks\/addons\/ofxSyphon",
+    "903165F9FDCB952EAE50578862E56DA722F43224" : "Development\/openFrameworks\/addons\/ofxBox2d",
+    "820D8ECECF908AEE9B246B025F1F606DC1E2C31E" : "kinectSkate",
+    "95F70890EFD46183734FEDFE52CF53391DE6937E" : "Development\/openFrameworks\/addons\/ofxPostProcessing",
+    "F080FE456D2598C8CEBB59BC836218BE8B5468F4" : "Development\/openFrameworks\/addons\/ofxAppGLFWWindowMulti",
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : "Development\/openFrameworks\/addons\/ofxCv"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "kinectSkate",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "openFrameworks\/kinectSkate\/kinectSkate.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tado\/ofxTwistedRibbon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "219FF19B371D53B0F60B3932A86F1D8E8E316723"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kylemcdonald\/ofxCv.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37526DA425E5430474A14FBFA1BC4525160B5FC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:radames\/kinectskate.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "820D8ECECF908AEE9B246B025F1F606DC1E2C31E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/vanderlin\/ofxBox2d.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "903165F9FDCB952EAE50578862E56DA722F43224"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/neilmendoza\/ofxPostProcessing",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95F70890EFD46183734FEDFE52CF53391DE6937E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ofTheo\/ofxAppGLFWWindowMulti.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F080FE456D2598C8CEBB59BC836218BE8B5468F4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/astellato\/ofxSyphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613"
+    }
+  ]
+}

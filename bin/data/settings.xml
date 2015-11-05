@@ -1,0 +1,52 @@
+<Settings>
+	<Mouse_DEBUG>1</Mouse_DEBUG>
+	<Kinect_0>
+		<Far_Threshold>75</Far_Threshold>
+		<Num_Max_Blos>10</Num_Max_Blos>
+		<max_Blob_Size>227</max_Blob_Size>
+		<min_Blob_Size>35</min_Blob_Size>
+		<Offset_X>0</Offset_X>
+		<Offset_Y>0</Offset_Y>
+	<Sensor_Pos>448.666, 284.202</Sensor_Pos>
+	<Sensor_Area>0.507653</Sensor_Area>
+	<waveColor>21, 0, 255, 255</waveColor>
+	<WaveDecayTime>1014</WaveDecayTime>
+		<WaveColor>255, 255, 255, 255</WaveColor>
+	</Kinect_0>
+	<Kinect_1>
+		<Far_Threshold>83</Far_Threshold>
+		<Num_Max_Blos>0</Num_Max_Blos>
+		<max_Blob_Size>242</max_Blob_Size>
+		<min_Blob_Size>35</min_Blob_Size>
+		<Offset_X>0</Offset_X>
+		<Offset_Y>0</Offset_Y>
+	<Sensor_Pos>1152.37, 372.165</Sensor_Pos>
+	<Sensor_Area>0.507653</Sensor_Area>
+	<waveColor>5, 233, 0, 184</waveColor>
+	<WaveDecayTime>1128</WaveDecayTime>
+		<WaveColor>255, 255, 255, 255</WaveColor>
+	</Kinect_1>
+<Settings/>
+<Particles>
+		<max_NumParticles>940</max_NumParticles>
+	<particle_Color>243, 255, 39, 255</particle_Color>
+	<decay_Time>2000</decay_Time>
+	<particle_color>255, 255, 0, 255</particle_color>
+	<Particle_Color>235, 241, 235, 255</Particle_Color>
+	</Particles>
+<Velo_Ratio>0.6415</Velo_Ratio>
+<Physical_Obj_dTime>9910</Physical_Obj_dTime>
+<general>
+		<Velo_Ratio>0.381122</Velo_Ratio>
+		<Physical_Obj_dTime>6464</Physical_Obj_dTime>
+		<Trail_Color>255, 255, 255, 255</Trail_Color>
+	</general>
+<Kinect>
+		<Far_Threshold>223</Far_Threshold>
+		<Near_Threshold>255</Near_Threshold>
+		<Num_Max_Blobs>53</Num_Max_Blobs>
+		<Max_Blob_Size>329</Max_Blob_Size>
+		<Min_Blob_Size>10</Min_Blob_Size>
+		<Kinect_Angle>9</Kinect_Angle>
+	</Kinect>
+</Settings>

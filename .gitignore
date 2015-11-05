@@ -1,0 +1,8 @@
+.DS_*
+*~
+.*~
+**/code/
+**/web-export/
+
+**/xcuserdata
+**/*.app
