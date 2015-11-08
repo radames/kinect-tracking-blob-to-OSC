@@ -8,10 +8,8 @@
 #include "ofxOsc.h"
 #include <tr1/unordered_map>
 
-#define HOST "192.168.2.100"
-//#define HOST "localhost"
+#define HOST "localhost"
 
-#define R_PORT 12345
 #define S_PORT 12346
 
 
@@ -55,6 +53,9 @@ public:
     ofParameter<int> numMaxBlobs;
     ofParameter<int> minBlobSize;
     ofParameter<int> maxBlobSize;
+    
+    //oscMessage Sender
+    ofxOscSender sender;
 
 };
 
