@@ -44,8 +44,6 @@
 		51F49BCF1A59C776004C7FD0 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BA91A59C775004C7FD0 /* IpEndpointName.cpp */; };
 		51F49BD01A59C776004C7FD0 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BAE1A59C776004C7FD0 /* NetworkingUtils.cpp */; };
 		51F49BD11A59C776004C7FD0 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BAF1A59C776004C7FD0 /* UdpSocket.cpp */; };
-		51F49BD21A59C776004C7FD0 /* NetworkingUtilsWin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BB31A59C776004C7FD0 /* NetworkingUtilsWin.cpp */; };
-		51F49BD31A59C776004C7FD0 /* UdpSocketWin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BB41A59C776004C7FD0 /* UdpSocketWin.cpp */; };
 		51F49BD41A59C776004C7FD0 /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BB91A59C776004C7FD0 /* OscOutboundPacketStream.cpp */; };
 		51F49BD51A59C776004C7FD0 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BBC1A59C776004C7FD0 /* OscPrintReceivedElements.cpp */; };
 		51F49BD61A59C776004C7FD0 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51F49BBE1A59C776004C7FD0 /* OscReceivedElements.cpp */; };
@@ -204,8 +202,6 @@
 		51F49BAF1A59C776004C7FD0 /* UdpSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocket.cpp; sourceTree = "<group>"; };
 		51F49BB01A59C776004C7FD0 /* TimerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerListener.h; sourceTree = "<group>"; };
 		51F49BB11A59C776004C7FD0 /* UdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
-		51F49BB31A59C776004C7FD0 /* NetworkingUtilsWin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkingUtilsWin.cpp; sourceTree = "<group>"; };
-		51F49BB41A59C776004C7FD0 /* UdpSocketWin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocketWin.cpp; sourceTree = "<group>"; };
 		51F49BB61A59C776004C7FD0 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageMappingOscPacketListener.h; sourceTree = "<group>"; };
 		51F49BB71A59C776004C7FD0 /* OscException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscException.h; sourceTree = "<group>"; };
 		51F49BB81A59C776004C7FD0 /* OscHostEndianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscHostEndianness.h; sourceTree = "<group>"; };
@@ -738,7 +734,6 @@
 				51F49BAD1A59C776004C7FD0 /* posix */,
 				51F49BB01A59C776004C7FD0 /* TimerListener.h */,
 				51F49BB11A59C776004C7FD0 /* UdpSocket.h */,
-				51F49BB21A59C776004C7FD0 /* win32 */,
 			);
 			path = ip;
 			sourceTree = "<group>";
@@ -750,15 +745,6 @@
 				51F49BAF1A59C776004C7FD0 /* UdpSocket.cpp */,
 			);
 			path = posix;
-			sourceTree = "<group>";
-		};
-		51F49BB21A59C776004C7FD0 /* win32 */ = {
-			isa = PBXGroup;
-			children = (
-				51F49BB31A59C776004C7FD0 /* NetworkingUtilsWin.cpp */,
-				51F49BB41A59C776004C7FD0 /* UdpSocketWin.cpp */,
-			);
-			path = win32;
 			sourceTree = "<group>";
 		};
 		51F49BB51A59C776004C7FD0 /* osc */ = {
@@ -1208,7 +1194,6 @@
 			files = (
 				51F49BD61A59C776004C7FD0 /* OscReceivedElements.cpp in Sources */,
 				5104D4AE19D8D349002EB372 /* Flow.cpp in Sources */,
-				51F49BD21A59C776004C7FD0 /* NetworkingUtilsWin.cpp in Sources */,
 				51191B5B1A602A9500B07DAE /* tinyxmlerror.cpp in Sources */,
 				51191B5C1A602A9500B07DAE /* tinyxmlparser.cpp in Sources */,
 				51F49BD81A59C776004C7FD0 /* ofxOscBundle.cpp in Sources */,
@@ -1238,7 +1223,6 @@
 				0F8F016776681D468C0D0949 /* audio.c in Sources */,
 				63020F16C7E8DED980111241 /* ofxCvImage.cpp in Sources */,
 				169D3C72FDE6C5590A1616F5 /* ofxCvFloatImage.cpp in Sources */,
-				51F49BD31A59C776004C7FD0 /* UdpSocketWin.cpp in Sources */,
 				51191B5A1A602A9500B07DAE /* tinyxml.cpp in Sources */,
 				5104D4B319D8D349002EB372 /* Tracker.cpp in Sources */,
 				5104D17F19D8675A002EB372 /* ofxSlider.cpp in Sources */,

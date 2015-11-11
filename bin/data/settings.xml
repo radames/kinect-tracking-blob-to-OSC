@@ -46,7 +46,8 @@
 		<Near_Threshold>255</Near_Threshold>
 		<Num_Max_Blobs>53</Num_Max_Blobs>
 		<Max_Blob_Size>329</Max_Blob_Size>
-		<Min_Blob_Size>10</Min_Blob_Size>
+		<Min_Blob_Size>51</Min_Blob_Size>
 		<Kinect_Angle>9</Kinect_Angle>
 	</Kinect>
+<OSC_Port>12345</OSC_Port>
 </Settings>

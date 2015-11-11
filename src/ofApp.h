@@ -6,11 +6,8 @@
 #include "ofxKinect.h"
 #include "ofxGui.h"
 #include "ofxOsc.h"
-#include <tr1/unordered_map>
 
 #define HOST "localhost"
-
-#define S_PORT 12346
 
 
 class ofApp : public ofBaseApp {
@@ -22,6 +19,7 @@ public:
     void exit();
     
     void guiSetup();
+    void processContour();
     void updateAngle(int& angle);
     
     void keyPressed(int key);
@@ -32,8 +30,7 @@ public:
     
     ofxKinect kinect;
 
-    ofxCvColorImage colorImg;
-    
+    ofxCvGrayscaleImage depthImage; // grayscale depth image
     ofxCvGrayscaleImage grayImage; // grayscale depth image
     ofxCvGrayscaleImage grayThreshNear; // the near thresholded image
     ofxCvGrayscaleImage grayThreshFar; // the far thresholded image
@@ -53,6 +50,8 @@ public:
     ofParameter<int> numMaxBlobs;
     ofParameter<int> minBlobSize;
     ofParameter<int> maxBlobSize;
+    
+    ofParameter<int> oscPort = 12345;
     
     //oscMessage Sender
     ofxOscSender sender;
