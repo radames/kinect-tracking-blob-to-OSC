@@ -215,10 +215,10 @@ void ofApp::processContour() {
                 mEllipse.addIntArg(label);
                 mEllipse.addFloatArg(ellipseCenter.x);
                 mEllipse.addFloatArg(ellipseCenter.y);
-                
+                mEllipse.addFloatArg(distanceValue);
+
                 mEllipse.addFloatArg(ellipseSize.x);
                 mEllipse.addFloatArg(ellipseSize.y);
-                mEllipse.addFloatArg(distanceValue);
 
                 mEllipse.addFloatArg(ellipse.angle);
 
@@ -240,7 +240,6 @@ void ofApp::processContour() {
     float totalDepth = 0;
     for(int e = 0; e < objectsDepth.size(); e ++){
         totalDepth += objectsDepth[e];
-        
     }
     
     mObjects.addFloatArg(totalDepth);

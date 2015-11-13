@@ -3,6 +3,6 @@
 .*~
 **/code/
 **/web-export/
-
+*.zip
 **/xcuserdata
 **/*.app
