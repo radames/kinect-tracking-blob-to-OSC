@@ -4,5 +4,6 @@
 **/code/
 **/web-export/
 *.zip
+**/*.xcscmblueprint
 **/xcuserdata
 **/*.app
